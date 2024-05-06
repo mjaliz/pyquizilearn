@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyquizilearn"
+version = "0.1.0"
+description = ""
+authors = ["mjaliz <mrph14@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = {extras = ["job-queue"], version = "^21.1.1"}
+pandas = "^2.2.2"
+python-dotenv = "^1.0.1"
+apscheduler = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
